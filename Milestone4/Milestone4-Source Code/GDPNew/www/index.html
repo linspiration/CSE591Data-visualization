@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <title>A story behind GDP</title>
+    <!--<link href="css/style.css" rel="stylesheet">-->
+    <!--<link href="css/svg.css" rel="stylesheet">-->
+    <link href="css/life.css" rel="stylesheet">
+    <link href="css/ionic.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
+    <link href="lib/xcharts.css" rel="stylesheet">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+</head>
+
+<body>
+
+<div id="left-nav">
+    <div class="welcome">Welcome to CSE591</div>
+    <div class="title">Menu</div>
+    <ul class="list">
+        <li class="list-item">
+            <a class="item-content" href="#dashboard/1">
+                <i class="ion-stats-bars"></i>
+                <h3>Page 1</h3>
+                <p>World GDP  Map</p>
+            </a>
+        </li>
+        <li class="list-item">
+            <a class="item-content" href="#dashboard/2">
+                <i class="ion-pie-graph"></i>
+                <h3>Page 2</h3>
+                <p>World GDP Annual Growth Map</p>
+            </a>
+        </li>
+        <li class="list-item">
+            <a class="item-content" href="#dashboard/7">
+                <i class="ion-connection-bars"></i>
+                <h3>Page 3</h3>
+                <p>Population and GDP</p>
+            </a>
+        </li>
+        <li class="list-item">
+            <a class="item-content" href="#dashboard/3">
+                <i class="ion-pie-graph"></i>
+                <h3>Page 4</h3>
+                <p>School Enrollment Rate(1970-2010)</p>
+            </a>
+        </li>
+        <li class="list-item">
+            <a class="item-content" href="#dashboard/5">
+                <i class="ion-connection-bars"></i>
+                <h3>Page 5</h3>
+                <p>Life Expectancy</p>
+            </a>
+        </li>
+        <li class="list-item">
+            <a class="item-content" href="#dashboard/6">
+                <i class="ion-pie-graph"></i>
+                <h3>Page 6</h3>
+                <p>health status</p>
+            </a>
+        </li>
+        <li class="list-item">
+            <a class="item-content" href="#dashboard/4">
+                <i class="ion-connection-bars"></i>
+                <h3>Page 7</h3>
+                <p>Infrastructure Level</p>
+            </a>
+        </li>
+
+    </ul>
+</div>
+
+<div id="container">
+    <header class="bar bar-header nav-bar bar-stable">
+        <button id="btn-menu" class="button button-icon" style="font-size: 22px;"><i class="ion-navicon-round"></i></button>
+        <h1 class="title">A Story Behind GDP</h1>
+    </header>
+    <div id="content"></div>
+</div>
+
+<script src="cordova.js"></script>
+<script src="lib/jquery.js"></script>
+<script src="lib/fastclick.js"></script>
+<script src="lib/d3.v3.min.js"></script>
+<script src="lib/xcharts.js"></script>
+
+<script src="lib/underscore-min.js"></script>
+<script src="data.js"></script>
+<script src="summary.js"></script>
+<script src="lifeSum.js"></script>
+<script src="lifeData.js"></script>
+
+
+<script src="js/dashboard1.js"></script>
+<script src="js/dashboard2.js"></script>
+<script src="js/dashboard3.js"></script>
+<script src="js/dashboard4.js"></script>
+<script src="js/dashboard5.js"></script>
+<script src="js/dashboard6.js"></script>
+<script src="js/dashboard7.js"></script>
+<script src="js/app.js"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="//code.jquery.com/jquery-1.9.1.js"></script>
+<script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<script src="http://thematicmapping.org/playground/d3/d3.slider/d3.slider.js"></script>
+
+</body>
+</html>

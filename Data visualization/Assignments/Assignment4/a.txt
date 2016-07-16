@@ -1,0 +1,6 @@
+Quantiles. This method classifies data into a certain number of categories with an equal number of units in each category.
+
+Equal Intervals. This method sets the value ranges in each category equal in size. The entire range of data values (max - min) is divided equally into however many categories have been chosen.
+
+These methods are illustrated using the following data:
+
